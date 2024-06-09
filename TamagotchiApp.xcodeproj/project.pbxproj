@@ -10,13 +10,18 @@
 		356F2B202C135528009C51CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F2B1F2C135528009C51CF /* AppDelegate.swift */; };
 		356F2B222C135528009C51CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F2B212C135528009C51CF /* SceneDelegate.swift */; };
 		356F2B242C135528009C51CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F2B232C135528009C51CF /* ViewController.swift */; };
-		356F2B272C135528009C51CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 356F2B262C135528009C51CF /* Base */; };
 		356F2B292C135529009C51CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356F2B282C135529009C51CF /* Assets.xcassets */; };
 		356F2B2C2C135529009C51CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 356F2B2B2C135529009C51CF /* Base */; };
 		356F2B372C13567F009C51CF /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F2B362C13567F009C51CF /* SelectionVC.swift */; };
 		356F2B392C1356C0009C51CF /* MyTamagotchiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F2B382C1356C0009C51CF /* MyTamagotchiVC.swift */; };
 		356F2B3B2C135708009C51CF /* SettingMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F2B3A2C135708009C51CF /* SettingMainVC.swift */; };
 		356F2B3D2C135723009C51CF /* NameEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F2B3C2C135723009C51CF /* NameEditVC.swift */; };
+		35A6C2852C159D6F00631B47 /* TamagoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C2842C159D6F00631B47 /* TamagoTableViewCell.swift */; };
+		35A6C2882C159DDE00631B47 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 35A6C2872C159DDE00631B47 /* SnapKit */; };
+		35A6C28A2C159E4500631B47 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C2892C159E4500631B47 /* ReusableProtocol.swift */; };
+		35A6C28C2C15B80A00631B47 /* StandbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C28B2C15B80A00631B47 /* StandbyTableViewCell.swift */; };
+		35A6C2922C15C78600631B47 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C2912C15C78600631B47 /* CustomAlertController.swift */; };
+		35A6C2942C15EF1000631B47 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C2932C15EF1000631B47 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +29,6 @@
 		356F2B1F2C135528009C51CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356F2B212C135528009C51CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		356F2B232C135528009C51CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		356F2B262C135528009C51CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		356F2B282C135529009C51CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356F2B2B2C135529009C51CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356F2B2D2C135529009C51CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +36,11 @@
 		356F2B382C1356C0009C51CF /* MyTamagotchiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTamagotchiVC.swift; sourceTree = "<group>"; };
 		356F2B3A2C135708009C51CF /* SettingMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMainVC.swift; sourceTree = "<group>"; };
 		356F2B3C2C135723009C51CF /* NameEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditVC.swift; sourceTree = "<group>"; };
+		35A6C2842C159D6F00631B47 /* TamagoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagoTableViewCell.swift; sourceTree = "<group>"; };
+		35A6C2892C159E4500631B47 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		35A6C28B2C15B80A00631B47 /* StandbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandbyTableViewCell.swift; sourceTree = "<group>"; };
+		35A6C2912C15C78600631B47 /* CustomAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		35A6C2932C15EF1000631B47 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A6C2882C159DDE00631B47 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,16 +74,17 @@
 		356F2B1E2C135528009C51CF /* TamagotchiApp */ = {
 			isa = PBXGroup;
 			children = (
+				35A6C2932C15EF1000631B47 /* UserDefaultsManager.swift */,
 				356F2B352C1355FD009C51CF /* Choice */,
-				356F2B342C1355DD009C51CF /* Setting */,
 				356F2B332C1355CD009C51CF /* Main */,
+				356F2B342C1355DD009C51CF /* Setting */,
 				356F2B1F2C135528009C51CF /* AppDelegate.swift */,
 				356F2B212C135528009C51CF /* SceneDelegate.swift */,
 				356F2B232C135528009C51CF /* ViewController.swift */,
-				356F2B252C135528009C51CF /* Main.storyboard */,
 				356F2B282C135529009C51CF /* Assets.xcassets */,
 				356F2B2A2C135529009C51CF /* LaunchScreen.storyboard */,
 				356F2B2D2C135529009C51CF /* Info.plist */,
+				35A6C2892C159E4500631B47 /* ReusableProtocol.swift */,
 			);
 			path = TamagotchiApp;
 			sourceTree = "<group>";
@@ -99,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				356F2B362C13567F009C51CF /* SelectionVC.swift */,
+				35A6C2912C15C78600631B47 /* CustomAlertController.swift */,
+				35A6C2842C159D6F00631B47 /* TamagoTableViewCell.swift */,
+				35A6C28B2C15B80A00631B47 /* StandbyTableViewCell.swift */,
 			);
 			path = Choice;
 			sourceTree = "<group>";
@@ -119,6 +133,9 @@
 			dependencies = (
 			);
 			name = TamagotchiApp;
+			packageProductDependencies = (
+				35A6C2872C159DDE00631B47 /* SnapKit */,
+			);
 			productName = TamagotchiApp;
 			productReference = 356F2B1C2C135528009C51CF /* TamagotchiApp.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 356F2B132C135528009C51CF;
+			packageReferences = (
+				35A6C2862C159DDE00631B47 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 356F2B1D2C135528009C51CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,7 +183,6 @@
 			files = (
 				356F2B292C135529009C51CF /* Assets.xcassets in Resources */,
 				356F2B2C2C135529009C51CF /* Base in Resources */,
-				356F2B272C135528009C51CF /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,27 +193,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A6C2852C159D6F00631B47 /* TamagoTableViewCell.swift in Sources */,
 				356F2B3B2C135708009C51CF /* SettingMainVC.swift in Sources */,
+				35A6C2942C15EF1000631B47 /* UserDefaultsManager.swift in Sources */,
 				356F2B372C13567F009C51CF /* SelectionVC.swift in Sources */,
 				356F2B242C135528009C51CF /* ViewController.swift in Sources */,
 				356F2B202C135528009C51CF /* AppDelegate.swift in Sources */,
+				35A6C28C2C15B80A00631B47 /* StandbyTableViewCell.swift in Sources */,
 				356F2B222C135528009C51CF /* SceneDelegate.swift in Sources */,
 				356F2B392C1356C0009C51CF /* MyTamagotchiVC.swift in Sources */,
 				356F2B3D2C135723009C51CF /* NameEditVC.swift in Sources */,
+				35A6C2922C15C78600631B47 /* CustomAlertController.swift in Sources */,
+				35A6C28A2C159E4500631B47 /* ReusableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		356F2B252C135528009C51CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				356F2B262C135528009C51CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		356F2B2A2C135529009C51CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -337,9 +353,8 @@
 				INFOPLIST_FILE = TamagotchiApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,9 +385,8 @@
 				INFOPLIST_FILE = TamagotchiApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -413,6 +427,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35A6C2862C159DDE00631B47 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		35A6C2872C159DDE00631B47 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35A6C2862C159DDE00631B47 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 356F2B142C135528009C51CF /* Project object */;
 }
