@@ -74,6 +74,31 @@ extension SettingMainVC {
     
     @objc func dataResetNextBtnTapped() {
         print("초기화 진행")
+        
+        let alert = UIAlertController(title: "초기화 진행합니까?", message: "돌이킬 수 없는 작업입니다!.", preferredStyle: .alert)
+        
+        let ok = UIAlertAction(title: "확인", style: .default) { _ in
+            self.reset()
+         
+        }
+        let cancel = UIAlertAction(title: "취소", style: .cancel) { _ in
+            self.backBtnTapped()
+        }
+        
+        alert.addAction(cancel)
+        alert.addAction(ok)
+        
+        present(alert, animated: true)
+        
+    }
+    
+    func reset(){
+//        UserDefaults.standard.removeObject(forKey: UserDefaultManager.nickname)
+        UserDefaultManager.nickname = ""
+        dismiss(animated: true)
+        // rootview로 어떻게 돌아오지..!
+  
+        print("초기화완료")
     }
 }
 

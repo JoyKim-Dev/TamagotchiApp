@@ -10,7 +10,6 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    var isLogged: Bool = false
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -24,12 +23,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let subVc = UINavigationController(rootViewController: SelectionVC())
         
         // 루트뷰 설정 (스토리보드의 entry point 역할을 함)
-        if isLogged == false {
-            window?.rootViewController = subVc
-        } else {
-            
+        if UserDefaultManager.nickname.count > 0 {
             window?.rootViewController = mainVc
+        } else {
+            window?.rootViewController = subVc
         }
+           
         
         // 사용자에게 화면이 보여지도록 설정. 없어도 실행되긴 하는데 애플 권장사항임.
         window?.makeKeyAndVisible()

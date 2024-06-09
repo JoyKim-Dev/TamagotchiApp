@@ -63,7 +63,7 @@ extension SettingTableViewCell {
         
         if i == 0 {
             leftImage.image = UIImage(systemName: "pencil")
-            nextBtn.setTitle("고래밥 ", for: .normal)
+            nextBtn.setTitle(UserDefaultManager.nickname, for: .normal)
             nextBtn.setTitleColor(.gray, for: .normal)
             nextBtn.setImage(UIImage(systemName: "chevron.right"), for: .normal)
             nextBtn.semanticContentAttribute = .forceRightToLeft
