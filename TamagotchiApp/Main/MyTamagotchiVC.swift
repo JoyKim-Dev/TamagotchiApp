@@ -34,6 +34,11 @@ var data: String?
         configUI()
        
     }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationItem.title = "\(UserDefaultManager.nickname)님의 다마고치"
+    }
 
 }
 
@@ -96,7 +101,7 @@ extension MyTamagotchiVC {
     }
     
     func configUI() {
-        self.navigationItem.title = "네임님의 다마고치"
+     
         view.backgroundColor = UIColor(red: 245/255, green: 252/255, blue: 252/255, alpha: 1)
         
         let settingIcon = UIBarButtonItem(image: UIImage(systemName: "person.fill"), style: .plain, target: self, action: #selector(settingIconTapped))
@@ -169,6 +174,7 @@ extension MyTamagotchiVC {
         let vc = SettingMainVC()
         
         let nav = UINavigationController(rootViewController: vc)
+        nav.modalPresentationStyle = .fullScreen
         present(nav, animated: true)
        
         

@@ -22,6 +22,7 @@
 		35A6C28C2C15B80A00631B47 /* StandbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C28B2C15B80A00631B47 /* StandbyTableViewCell.swift */; };
 		35A6C2922C15C78600631B47 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C2912C15C78600631B47 /* CustomAlertController.swift */; };
 		35A6C2942C15EF1000631B47 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C2932C15EF1000631B47 /* UserDefaultsManager.swift */; };
+		35A6C2962C15FA4500631B47 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6C2952C15FA4500631B47 /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		35A6C28B2C15B80A00631B47 /* StandbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandbyTableViewCell.swift; sourceTree = "<group>"; };
 		35A6C2912C15C78600631B47 /* CustomAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
 		35A6C2932C15EF1000631B47 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		35A6C2952C15FA4500631B47 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				356F2B3A2C135708009C51CF /* SettingMainVC.swift */,
+				35A6C2952C15FA4500631B47 /* SettingTableViewCell.swift */,
 				356F2B3C2C135723009C51CF /* NameEditVC.swift */,
 			);
 			path = Setting;
@@ -201,6 +204,7 @@
 				356F2B202C135528009C51CF /* AppDelegate.swift in Sources */,
 				35A6C28C2C15B80A00631B47 /* StandbyTableViewCell.swift in Sources */,
 				356F2B222C135528009C51CF /* SceneDelegate.swift in Sources */,
+				35A6C2962C15FA4500631B47 /* SettingTableViewCell.swift in Sources */,
 				356F2B392C1356C0009C51CF /* MyTamagotchiVC.swift in Sources */,
 				356F2B3D2C135723009C51CF /* NameEditVC.swift in Sources */,
 				35A6C2922C15C78600631B47 /* CustomAlertController.swift in Sources */,

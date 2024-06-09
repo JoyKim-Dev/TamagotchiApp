@@ -11,8 +11,7 @@ import SnapKit
 class SelectionVC: UIViewController {
     
     let tamagoTableView = UITableView()
-    
-
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,7 +37,7 @@ extension SelectionVC {
         
         view.backgroundColor = UIColor(red: 245/255, green: 252/255, blue: 252/255, alpha: 1)
         self.navigationItem.title = "다마고치 선택하기"
-        
+       
         tamagoTableView.delegate = self
         tamagoTableView.dataSource = self
         tamagoTableView.rowHeight = 150
@@ -66,6 +65,11 @@ extension SelectionVC {
         customAlert.data = "반짝반짝 다마고치"
         present(customAlert, animated: true)
     print("반짝눌림")
+    }
+    
+    @objc func backBtn() {
+        dismiss(animated: true)
+        print("뒤로가기 눌림")
     }
     
 }
